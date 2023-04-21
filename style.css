@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a  {
+    text-decoration: none;
+}
+
+.site-logo {
+    width: 7rem;
+}
+
+.navbar {
+    background-color: #4fc2f7;
+}
+
+
+
+.navbar li a {
+    color: aliceblue;
+}
+
+.navbar-toggler, .dropdown-menu {
+    background-color: #4FC3F7;
+}
+
+body {
+    background-color: paleturquoise;
+}
+
+
+
+
+@media (min-width: 768px) {
+    #carouselExampleAutoplaying img {
+        object-fit: contain;
+        height: 700px;
+    }
+}
+
+/*Configurador de Tarjetas*/
+
+
+.card {
+    color: black;
+    background-color: white;
+    padding: 15px 15px;
+}
+
+
+footer {
+    background-color: #4fc2f781;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.icono-redes {
+    width: 40px;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+    width: 60px;
+}
