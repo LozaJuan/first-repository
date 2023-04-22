@@ -13,17 +13,18 @@ a  {
 
 .navbar {
     background-color: white;
+    opacity: 75%;
 }
 
-
-
 .navbar li a {
-    color: aliceblue;
+    color: #0099ff;
 }
 
 .navbar-toggler, .dropdown-menu {
     background-color: #4ff7f7;
 }
+
+
 
 body {
     background-color: paleturquoise;
@@ -37,6 +38,13 @@ body {
         object-fit: contain;
         height: 700px;
     }
+}
+
+@media (min-width: 1024px) {
+    .navbar ul {
+        margin-left: 30%;
+    }
+    
 }
 
 /*Configurador de Tarjetas*/
