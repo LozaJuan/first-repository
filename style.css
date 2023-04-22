@@ -73,3 +73,19 @@ footer {
     right: 25px;
     width: 60px;
 }
+
+
+.contact-container {
+    background-color: #4fc2f781;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
